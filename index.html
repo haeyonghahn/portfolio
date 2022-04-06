@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HHY's Portfolio</title>
+    <meta name="description" content="Portfolio for world-renowned software engineer Heayong">
+    <meta name="author" content="Haeyong" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script src="https://kit.fontawesome.com/d763b57905.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle&family=Gamja+Flower&family=Jua&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fa-solid fa-house-chimney"></i>
+        <a href="#">HHY's Portfolio</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skill">Skills</li>
+        <li class="navbar__menu__item" data-link="#project">Projects</li>
+        <li class="navbar__menu__item" data-link="#carrer">Career</li>
+      </ul>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          src="imgs/profile.jpg"
+          alt="HHY's profile photo"
+          class="home__avatar"/>  
+        <h1 class="home__title">한 해 용</h1>
+        <h1 class="home__description">웹 개발자 포트폴리오</h1>
+        <hr class="home__line"><br>
+        <h2 class="home__description__additional">안녕하세요 :) <br>
+          꾸준히 학습하는 웹 개발자입니다.<br>
+        </h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="about__container">
+        <h1>About me</h1>
+        <hr>
+        <p>반복되는 문제를 기록해놓는 것을 좋아합니다.<br> 
+        성장하기 위해 꾸준히 공부한 것으로 문제를 해결했을 때 얻는 성취감을 좋아합니다.<br>
+        이러한 방식으로 해결된 문제를 사람들과 공유하여 함께 성장하는 것을 종아합니다.<br>
+        무엇보다 새로운 기술을 배우고자하는 열정이 저의 장점입니다.
+        </p>
+        <div class="about__personal__info">
+          <div class="personal__info__contact">
+            <h2>Contact</h2>
+            <div class="contact__email">
+              <div class="contact__email__icon">
+                <i class="fa-duotone fa-at"></i>          
+              </div>
+              <div class="contact__email__description">
+                <div class="contact__email__title">이 메 일</div>
+                <div class="contact__email__value">yong80211@gmail.com</div>
+              </div>
+            </div>
+            <div class="contact__phone">
+              <div class="contact__phone__icon">
+                <i class="fa-solid fa-phone"></i>          
+              </div>
+              <div class="contact__phone__description">
+                <div class="contact__phone__title">연 락 처</div>
+                <div class="contact__phone__value">010-5567-7317</div>
+              </div>
+            </div>
+          </div>
+          <div class="personal__info__channel">
+            <h2>Channel</h2>
+            <div class="channel__github">
+              <div class="channel__github__icon">
+                <i class="fa-brands fa-github"></i>          
+              </div>
+              <div class="channel__github__description">
+                <div class="channel__github__title">깃 허 브</div>
+                <div class="channel__github__value"><a href="http://github.com/haeyonghahn" target="_blank">github.com/haeyonghahn</a></div>
+              </div>
+            </div>
+            <div class="channel__blog">
+              <div class="channel__blog__icon">
+                <i class="fa-brands fa-blogger"></i>          
+              </div>
+              <div class="channel__blog__description">
+                <div class="channel__blog__title">블 로 그</div>
+                <div class="channel__blog__value"><a href="http://haeyonghahn.tistory.com" target="_blank">haeyonghahn.tistory.com</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill -->
+    <section id="skill" class="section section__container">
+      <div class="skill__container">
+        <h1>Skills</h1>
+        <hr>
+        <div class="about__majors">
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h2 class="major__title">Front-end</h2>
+            <div class="major__description">
+              HTML, CSS, JavaScript,
+              <br />React
+            </div>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h2 class="major__title">Back-end</h2>
+            <p class="major__description">
+              Java, Spring Boot, Spring MVC,
+              <br />Spring Batch, Maven, Git
+            </p>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fa-solid fa-gears"></i>
+            </div>
+            <h2 class="major__title">DevOps</h2>
+            <p class="major__description">
+              MySQL, MariaDB, Oracle,
+              <br />Jenkins
+            </p>
+          </div>
+        </div>
+        <div class="section__container">
+          <div class="skillset">
+            <div class="skillset__left">
+              <h3 class="skillset__title">Skills</h3>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>HTML</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>CSS</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 70%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>JavaScript</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>React</span>
+                  <span>50%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 50%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>Java</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill__description">
+                  <span>Spring</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill__value" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skillset__right">
+              <div class="tools">
+                <h3 class="skillset__title">Tools</h3>
+                <ul class="tools__list">
+                  <li><span>Visual Studio Code</span></li>
+                  <li><span>Eclipse</span></li>
+                  <li><span>Dbeaver</span></li>
+                </ul>
+              </div>
+              <div class="etc">
+                <h3 class="skillset__title">Etc</h3>
+                <ul class="etc__list">
+                  <li><span>Git</span></li>
+                  <li><span>Linux</span></li>
+                  <li><span>Jenkins</span></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project" class="section">
+      <div class="section__container project__container">
+        <h1>Projects</h1>
+        <hr>
+        <div class="projects">
+          <div class="projects__project">
+            <div class="project__name">
+              <h1>Nest</h1>
+            </div>
+            <div class="project__period">
+              <h3>2020.04.21 ~ 2020.07.14</h3>
+            </div>
+            <div class="project__description">
+              <div class="project__img">
+                <div class="alwayswithus mySlides fade" style="display: block;">
+                  <img src="imgs/projects/일정관리.png"/>
+                   <div class="project__img__slide">
+                    <a class="project__img__slide-prev" onclick="plusSlides(-1, 'alwayswithus')"><</a>
+                    1 / 3
+                    <a class="project__img__slide-next" onclick="plusSlides(1, 'alwayswithus')">></a>
+                  </div>
+                  <div class="project__img__description">
+                    <h3>업무관리</h3>
+                  </div>
+                </div>
+                <div class="alwayswithus mySlides fade" style="display: none;">
+                  <img src="imgs/projects/캘린더.png"/>
+                  <div class="project__img__slide">
+                    <a class="project__img__slide-prev" onclick="plusSlides(-1, 'alwayswithus')"><</a>
+                    2 / 3
+                    <a class="project__img__slide-next" onclick="plusSlides(1, 'alwayswithus')">></a>
+                  </div>
+                  <div class="project__img__description">
+                    <h3>일정관리</h3>
+                  </div>
+                </div>
+                <div class="alwayswithus mySlides fade" style="display: none;">
+                  <img src="imgs/projects/커뮤니케이션.png"/>
+                  <div class="project__img__slide">
+                    <a class="project__img__slide-prev" onclick="plusSlides(-1, 'alwayswithus')"><</a>
+                    3 / 3
+                    <a class="project__img__slide-next" onclick="plusSlides(1, 'alwayswithus')">></a>
+                  </div>
+                  <div class="project__img__description">
+                    <h3>커뮤니케이션</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="project__introduce">
+                <p>
+                  사용자가 원하는 것이 무엇인지 파악하는 요구사항 분석, 웹 서비스를 배포하기 위해 리눅스 운영체제로 서버 환경 구축, 
+                  데이터가 어떻게 저장되어야하는지 테이블을 만든 DB 설계, 대시보드, 프로젝트 설정, 캘린더 등 화면을 만들기 위한 front-end 개발, 
+                  데이터를 가져오기 위해 API를 만든 back-end 개발까지.<br /><br />
+                  협업을 통해 문제를 해결하고 모르는 기술을 알아갔을 때 성취감을 느끼면서 프로젝트를 진행했던 것 같습니다. 
+                  프로젝트를 진행하면서 모르는 기술을 알아가는 것이 쉽지 않았지만, 그럼에도 불구하고 기술을 알게되었을 때 만족감을 얻으며 차근차근 프로젝트를 진행했던 것 같습니다. 
+                  다음 번에 프로젝트를 하게된다면, 이번 계기를 통해 프로젝트를 진행함에 있어 자신감이 생길 것 같은 좋은 계기가 되었습니다.
+                </p>
+                <hr>
+                <div class="project__introduce__explanation">
+                  <div class="project__introduce__explanation__function">
+                    <div class="project__introduce__explanation__function-label">주요기능</div>
+                    <div class="project__introduce__explanation-value">업무 관리, 일정 관리, 커뮤니케이션</div>
+                  </div>
+                  <div class="project__introduce__explanation__github">
+                    <div class="project__introduce__explanation__github-label">GitHub</div>
+                    <div class="project__introduce__explanation-value"><a href="http://github.com/alwayswithus" target="_blank">github.com/alwayswithus</a></div>
+                  </div>
+                  <div class="project__introduce__explanation__frontEnd">
+                    <div class="project__introduce__explanation__frontEnd-label">frontEnd</div>
+                    <div class="project__introduce__explanation-value">HTML, CSS, SASS, JavaScript, React</div>
+                  </div>
+                  <div class="project__introduce__explanation__backEnd">
+                    <div class="project__introduce__explanation__backEnd-label">backEnd</div>
+                    <div class="project__introduce__explanation-value">java, Spring Boot, Spring MVC</div>
+                  </div>
+                  <div class="project__introduce__explanation__devOps">
+                    <div class="project__introduce__explanation__devOps-label">devOps</div>
+                    <div class="project__introduce__explanation-value">MariaDB, Linux, Git, Maven, Jenkins</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__project">
+            <div class="project__name">
+              <h1>포트폴리오 웹사이트</h1>
+            </div>
+            <div class="project__period">
+              <h3>2020.04.21 ~ 2020.07.14</h3>
+            </div>
+            <div class="project__description">
+              <div class="project__img">
+                <div class="portfolio mySlides fade" style="display: block;">
+                  <img src="imgs/projects/자기소개.PNG"/>
+                   <div class="project__img__slide">
+                    <a class="project__img__slide-prev" onclick="plusSlides(-1, 'portfolio')"><</a>
+                    1 / 2
+                    <a class="project__img__slide-next" onclick="plusSlides(1, 'portfolio')">></a>
+                  </div>
+                  <div class="portfolio__project__img__description">
+                    <h3>자기소개</h3>
+                  </div>
+                </div>
+                <div class="portfolio mySlides fade" style="display: none;">
+                  <img src="imgs/projects/스킬.PNG"/>
+                   <div class="project__img__slide">
+                    <a class="project__img__slide-prev" onclick="plusSlides(-1, 'portfolio')"><</a>
+                    2 / 2
+                    <a class="project__img__slide-next" onclick="plusSlides(1, 'portfolio')">></a>
+                  </div>
+                  <div class="portfolio__project__img__description">
+                    <h3>스킬</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="project__introduce">
+                <p>
+                  포트폴리오 용도로 제작한 웹 사이트입니다.<br /><br />
+
+                  해당 포트폴리오를 제작하면서 HTML, CSS, JavaScript를 다시 공부할 수 있었습니다.
+                  이 과정에서 React를 이용하여 개발했던 컴포넌트 장점에 대해서 다시 한 번 생각할 수 있었습니다. 
+                </p>
+                <hr>
+                <div class="project__introduce__explanation">
+                  <div class="project__introduce__explanation__function">
+                    <div class="project__introduce__explanation__function-label">주요기능</div>
+                    <div class="project__introduce__explanation-value">자기소개, 인적사항, 기술스택, 프로젝트 경험, 업무 경력</div>
+                  </div>
+                  <div class="project__introduce__explanation__github">
+                    <div class="project__introduce__explanation__github-label">GitHub</div>
+                    <div class="project__introduce__explanation-value"><a href="http://github.com/alwayswithus" target="_blank">github.com/alwayswithus</a></div>
+                  </div>
+                  <div class="project__introduce__explanation__frontEnd">
+                    <div class="project__introduce__explanation__frontEnd-label">frontEnd</div>
+                    <div class="project__introduce__explanation-value">HTML, CSS, SASS, JavaScript, React</div>
+                  </div>
+                  <div class="project__introduce__explanation__devOps">
+                    <div class="project__introduce__explanation__devOps-label">devOps</div>
+                    <div class="project__introduce__explanation-value">MariaDB, Linux, Git, Maven, Jenkins</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career -->
+    <section id="carrer" class="section">
+      <div class="section__container">
+        <h1>Career</h1>
+        <hr>
+        <div class="career">
+          <div class="carrer__img">
+            <img src="imgs/jobs/logo-douzone.jpg"/>
+          </div>
+          <div class="career__updown"></div>
+          <div class="carrer__description">
+            <h2>(주)더존비즈온</h2>
+            <h3>2020.08.10 ~ 현재</h3>
+            <p>
+              회계 프로그램 뿐만 아니라, ERP, 그룹웨어, 정보보호, 전자세금계산서에 대해서 솔루션과 서비스를 제공하는 기업입니다.<br /><br />
+              현재 JavaScript와 Spring 프레임워크를 기반으로 풀 스택 웹 개발 업무를 담당하고 있으며, ERP 회계 프로그램 중 재무, 리스, 자금 분야 
+              업무를 담당하며 개발을 진행하고 있습니다.
+            </p>
+            <hr>
+            <ul>
+              <h4>▎ ERP 회계 프로그램 각종 기능 추가 및 수정/개선</h4>
+              <h5>2020.08.10 ~ 현재</h5>
+              <li>공공구매실적 데이터를 통합사업소로 전송할 수 있도록 전송용 테이블에 저장될 수 있게 배치 프로그램 개발</li>
+              <li>Oracle 및 MariaDB 데이터 조회 시 실행 계획을 파악하고 속도가 느린 부분을 찾아 속도 개선</li>
+              <li>Java 전략(Strategy) 패턴에 맞춰 소스 수정 및 개선</li>
+
+              <h4>▎ ERP 회계 데이터 마이그레이션</h4>
+              <h5>2020.08.10 ~ 현재</h5>
+              <li>(주)케이티파워텔에서 사용하던 ERP 프로그램 세금계산서 데이터를 mariaDB 프로시저를 개발하여 (주)더존비즈온 세금계산서 테이블로 이관</li>
+              <li>(주)한국동서발전 사용하던 ERP 프로그램 회계 데이터를 Oracle 프로시저를 개발하여 (주)더존비즈온 회계 테이블로 이관</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="section">
+      <div class="footer__links">
+        <a href="http://github.com/haeyonghahn" target="_blank">
+          <img src="imgs/git-hub.png" />
+        </a>
+        <a href="http://haeyonghahn.tistory.com" target="_blank">
+          <img src="imgs/tistory.png" />
+        </a>
+      </div>
+      <p class="footer__rights">
+        © 2022. Hahn Hae Yong - All rights reserved.
+      </p>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow__up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
