@@ -487,6 +487,10 @@ p {
   margin: auto;
 }
 
+.project__introduce__explanation-value {
+  font-size: 20px;
+}
+
 .project__introduce__explanation__function,
 .project__introduce__explanation__github,
 .project__introduce__explanation__frontEnd,
@@ -513,7 +517,7 @@ p {
 }
 
 .project__introduce__explanation__devOps-label {
-  padding-right: 7.5%;
+  padding-right: 15.5%;
 }
 
 /* Career */
@@ -662,6 +666,7 @@ p {
 
   .about__majors {
     flex-direction: column;
+    margin: 25px 0;
   }
 
   .major {
@@ -687,7 +692,7 @@ p {
   }
 
   .project__introduce__explanation-value {
-    font-size: var(--font-small);
+    font-size: 13px;
   }
 
   .career {
