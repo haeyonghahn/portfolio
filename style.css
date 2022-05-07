@@ -495,7 +495,8 @@ p {
 .project__introduce__explanation__github,
 .project__introduce__explanation__frontEnd,
 .project__introduce__explanation__backEnd,
-.project__introduce__explanation__devOps {
+.project__introduce__explanation__devOps,
+.project__introduce__explanation__url {
   display: flex;
   padding: 5px;
   font-size: 22px;
@@ -513,11 +514,15 @@ p {
 }
 
 .project__introduce__explanation__backEnd-label {
-  padding-right: 6%;
+  padding-right: 7%;
 }
 
 .project__introduce__explanation__devOps-label {
-  padding-right: 15.5%;
+  padding-right: 7.8%;
+}
+
+.project__introduce__explanation__url-label {
+  padding-right: 16%;
 }
 
 /* Career */
@@ -687,7 +692,8 @@ p {
   .project__introduce__explanation__github,
   .project__introduce__explanation__frontEnd,
   .project__introduce__explanation__backEnd,
-  .project__introduce__explanation__devOps {
+  .project__introduce__explanation__devOps,
+  .project__introduce__explanation__url {
     flex-direction: column;
   }
 
